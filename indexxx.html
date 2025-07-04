@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <ul>
+            <li>Apple</li>
+              <ul>
+                <li>color : red</li>
+                <li>season : winters</li>
+              </ul>
+            <li>Mango</li>
+              <ul>
+                <li>color : yellow</li>
+                <li>season : summers</li>
+              </ul>
+            <li>Litchi</li>
+        </ul>
+
+        <ol>
+            <li>Apple</li>
+              <ol>
+                <li>color : red</li>
+                <li>season : winters</li>
+              </ol>
+            <li>Mango</li>
+              <ol>
+                <li>color : yellow</li>
+                <li>season : summrers</li>
+              </ol>
+            <li>Litchi</li>    
+        </ol>
+
+        <table>
+            <thead>
+            <caption>
+                Student Data :
+            </caption>
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Clz</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Madhab</td>
+                <td>20</td>
+                <td>FWU</td>
+            </tr>
+            <tr>
+                <td>Nayaab</td>
+                <td>08</td>
+                <td>IOE</td>
+            </tr>
+            </tbody>
+        </table>
+        <hr>
+    </main>
+
+    <h4>Registration Form :</h4>
+
+    <form action="/action.php">
+        <input type="text" placeholder="Username">
+        <br><br>
+        <input type="password" placeholder="Password">
+        <br>
+
+        <h5>Select Your Class :</h5>
+        
+        <label for="101">
+        <input type="radio" value="class XI" name="class" id="101">class XI
+        </label>
+        <br><br>
+        <label for="102">
+        <input type="radio" value="class XII" name="class" id="102">class XII
+      </label>
+      <br>
+      <!--by using label we can make options/buttons clickable not only in circled part 
+      but in letters also-->
+      <br>
+
+      <h5>Select Your Fav Subs :</h5>
+      
+      <label for="math">
+        <input type="checkbox" value="math" name="subject" id="101"> math
+      </label>
+      <br><br>
+      <label for="chem">
+        <input type="checkbox" value="chem" name="subject" id="102"> chem
+      </label>
+      <br><br>
+      <label for="phy">
+        <input type="checkbox" value="phy" name="subject" id="103"> phy
+      </label>
+      <br><br>
+      <label for="cs">
+        <input type="checkbox" value="cs" name="subject" id="104"> cs
+      </label>
+      <br><br>
+
+      Select Your City :
+      <select name="city">
+        <option value="MNR">MNR</option>
+        <option value="KTM">KTM</option>
+        <option value="DCL">DCL</option>
+        <option value="PKH">PKH</option>
+      </select>
+      <br><br>
+
+      <textarea name="feedback" id="101" placeholder="please give your valuable 
+      feedback here" rows="5"></textarea>
+      <br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+    Complete Java Course :
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UmnCZ7-9yDY?si=Tbe6z-9Lg1tkCVMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+
+    <footer></footer>
+</body>
+</html>
