@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 10%;
+    height: 40%;
+    background-color: rgba(11, 1, 1, 0.91);
+}
+
+#main{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 10px;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/1557652/pexels-photo-1557652.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center;
+}
