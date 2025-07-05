@@ -5,7 +5,6 @@ html, body {
   font-family: sans-serif;
   background: #f4f4f4;
 }
-
 .flex-container {
   display: flex;
   flex-wrap: wrap;
