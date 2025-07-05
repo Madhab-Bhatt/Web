@@ -5,6 +5,7 @@ html, body {
   font-family: sans-serif;
   background: #f4f4f4;
 }
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -16,6 +17,7 @@ html, body {
   gap: 10px;
   box-sizing: border-box;
 }
+
 .box {
   width: calc((100% - 70px) / 8);  /* 8 columns, 7 gaps */
   height: calc((100vh - 50px) / 4); /* 4 rows, 3 gaps */
