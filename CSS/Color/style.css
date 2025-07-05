@@ -1,0 +1,67 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+  background: #f4f4f4;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.box {
+  width: calc((100% - 70px) / 8);  /* 8 columns, 7 gaps */
+  height: calc((100vh - 50px) / 4); /* 4 rows, 3 gaps */
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
+}
+
+/* 32 unique colors */
+.color1  { background: #e74c3c; }      /* Red */
+.color2  { background: #3498db; }      /* Blue */
+.color3  { background: #2ecc71; }      /* Green */
+.color4  { background: #f1c40f; color: #333; } /* Yellow */
+.color5  { background: #9b59b6; }      /* Purple */
+.color6  { background: #1abc9c; }      /* Teal */
+.color7  { background: #e67e22; }      /* Orange */
+.color8  { background: #34495e; }      /* Dark Blue */
+.color9  { background: #16a085; }      /* Aqua */
+.color10 { background: #27ae60; }      /* Emerald */
+.color11 { background: #2980b9; }      /* Sky Blue */
+.color12 { background: #8e44ad; }      /* Violet */
+.color13 { background: #2c3e50; }      /* Navy */
+.color14 { background: #d35400; }      /* Pumpkin */
+.color15 { background: #c0392b; }      /* Maroon */
+.color16 { background: #7f8c8d; }      /* Gray */
+.color17 { background: #fd79a8; }      /* Pink */
+.color18 { background: #6c5ce7; }      /* Indigo */
+.color19 { background: #00cec9; }      /* Cyan */
+.color20 { background: #ffeaa7; color: #333; } /* Light Yellow */
+.color21 { background: #fab1a0; color: #333; } /* Peach */
+.color22 { background: #81ecec; color: #333; } /* Mint */
+.color23 { background: #74b9ff; }      /* Light Blue */
+.color24 { background: #a29bfe; }      /* Lavender */
+.color25 { background: #55efc4; color: #333; } /* Pale Green */
+.color26 { background: #d63031; }      /* Scarlet */
+.color27 { background: #0984e3; }      /* Royal Blue */
+.color28 { background: #6ab04c; }      /* Lime */
+.color29 { background: #f0932b; }      /* Amber */
+.color30 { background: #eb4d4b; }      /* Rose */
+.color31 { background: #30336b; }      /* Midnight */
+.color32 { background: #130f40; }      /* Deep Navy */
