@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #111;
+  background-color: #fefefe;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3c270;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.intro span {
+  font-weight: normal;
+  color: #333;
+}
+
+.location,
+.scroll {
+  font-size: 14px;
+  color: #444;
+}
+
+.hero-img img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-text h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.about-tabs {
+  flex: 1;
+  text-align: right;
+}
+
+.dots {
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #aaa;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.dot.active {
+  background: #000;
+}
+
+.services {
+  margin-bottom: 40px;
+}
+
+.service h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.grid h5 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.grid p {
+  font-size: 14px;
+  color: #444;
+}
