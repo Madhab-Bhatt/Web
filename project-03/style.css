@@ -1,0 +1,149 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* LAYOUT */
+.wrapper {
+  display: flex;
+  height: 100vh;
+  background-color: #fdf6e3; /* cream */
+}
+
+/* LEFT PANEL */
+.left-panel {
+  flex: 1;
+  background-color: #003049; /* dark blue */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-box {
+  text-align: center;
+  max-width: 80%;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+}
+
+.intro-box h1 {
+  font-size: 2.8rem;
+  margin-bottom: 8px;
+}
+
+.location {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  background: #f77f00;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.intro-box p {
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.about {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #e0e0e0;
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 20px;
+  background: #38b000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.resume-btn:hover {
+  background: #70e000;
+  transform: scale(1.05);
+}
+
+/* RIGHT PANEL */
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 40px 30px;
+  background: #fff;
+  color: #003049;
+}
+
+/* SKILLS */
+.skills-box h2, .projects-box h2 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  color: #d62828;
+}
+
+.skills-box ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.skills-box li {
+  margin-bottom: 6px;
+}
+
+/* GALLERY */
+.gallery {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.gallery img {
+  width: 110px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.08);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .left-panel, .right-panel {
+    flex: none;
+    width: 100%;
+    height: 50%;
+  }
+
+  .intro-box {
+    max-width: 90%;
+  }
+
+  .gallery {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
